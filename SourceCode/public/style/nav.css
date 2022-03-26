@@ -1,0 +1,48 @@
+.header a{
+
+text-decoration: none;
+
+}
+
+#home{
+font-weight: bold;
+background-color: #E79800;
+border-radius: 20px;
+
+}
+
+.header  :hover{
+    color: white;
+    font-weight: bold;
+
+}
+a :hover{
+    color: white;
+}
+#home :hover{
+    color: white;
+
+
+}
+.cont5{
+    position: relative;
+padding-top: 10%;
+height: 100vh;
+
+  }
+  .cont5::after {
+    content: "";
+    background: url(../images/bg/bg5.jpg) left top no-repeat, url(../images/bg/bg5.jpg) right bottom no-repeat;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
